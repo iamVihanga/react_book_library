@@ -39,7 +39,7 @@ function App() {
       setSearchPending(true);
       setError(false);
       const searchResult = await axios(
-        `https://www.googleapis.com/books/v1/volumes?q=${book}&key=AIzaSyBiXU6PTdHscuZ6krw-d8fH63u7eA3xH-g&maxResults=20`
+        `https://www.googleapis.com/books/v1/volumes?q=${book}&key=AIzaSyBiXU6PTdHscuZ6krw-d8fH63u7eA3xH-g&maxResults=30`
       );
       const trueResult = searchResult.data.items.filter(
         (data) => data.volumeInfo.imageLinks !== undefined
