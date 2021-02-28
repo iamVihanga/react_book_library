@@ -1,7 +1,7 @@
 {
-  "name": "react-book-library",
+  "name": "react_book_library",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "engines": {
     "npm": "7.3.0",
     "node": "15.5.0"
